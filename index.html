@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img style="width: 40px;" src="img/recycling.png" alt="logo">
+                <span class="logoname">Web Logo</span>
+            </div>
+
+            <div class="searchbox">
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <i class="fa fa-search"></i>
+                </form>
+            </div>
+
+            <div class="navitem">
+                <div class="lang">
+                    <select name="language" id="">
+                        <option value="">English</option>
+                        <option value="">Hindi</option>
+                    </select>
+                </div>
+
+                <div class="icons">
+                    <ul>
+                        <li><i class="fa fa-envelope"></i></li>
+                        <li><i class="fa fa-bell"></i></li>
+                    </ul>
+                </div>
+
+                <div class="account">
+                    <img width="25px" height="25px" src="ravirathore.jpg" alt="profile picture">
+                    <span class="name">ravi kumar</span>
+                    <span class="username">@ravi9653</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-body">
+            <div class="sidebar">
+                <ul>
+                    <li class="dashboard">
+                        <i class="fa fa-dashcube"></i>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-money"></i>
+                        <a href="#">Balance</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="#">Invoice</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-credit-card-alt"></i>
+                        <a href="#">Card</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-history"></i>
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-info-circle"></i>
+                        <a href="#">Details</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main-body">
+                <div class="headtittle">
+                    <span class="greeting">Hii Ravi,</span>
+                    <h2>Overview</h2>
+                </div>
+
+                <div class="cards">
+                    <div class="row row-1">
+                        <div class="col">
+                            <div class="balance-card">
+                                <h3 class="cardtittle">Balance</h3>
+                                <h2 class="balance">$ 54321.65</h2>
+                                <span class="balancestatus">+15%</span>
+                                <img width="60px" height="60px" src="img/bar1.png" alt="balance chart">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="latest-activity">
+                                <img width="100%" height="100px" src="img/graph4.png" alt="activity graph">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="debit-card">
+                                <h3 class="cardtittle">My card</h3>
+                                <h3 class="cardnumber">1234 5678 9101 1123</h3>
+                                <h3 class="cardholder">Ravi kumar</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-2">
+                        <div class="col">
+                            <div class="total-invoice">
+                                <h3 class="cardtittle">Total Invoice</h3>
+                                <span class="t-i">520</span>
+                                <span class="status">+12%</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="paid-invoice">
+                                <h3 class="cardtittle">Paid Invoice</h3>
+                                <span class="p-i">210</span>
+                                <span class="status">85%</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="unpaid-invoice">
+                                <h3 class="cardtittle">Unpaid Invoice</h3>
+                                <span class="u-i">65</span>
+                                <span class="status">15%</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="invoice-sent">
+                                <h3 class="cardtittle">Invoice Sent</h3>
+                                <span class="i-s">120</span>
+                                <span class="status"><i class="fa fa-check"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
